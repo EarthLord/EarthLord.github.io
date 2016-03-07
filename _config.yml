@@ -1,0 +1,39 @@
+# Site settings
+title: Prithvi Raj Narendra
+description: 'Nifty Header here'
+url: 'http://earthlord.io/'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Prithvi Raj Narendra'
+  email: p@earthlord.io
+  twitter_username: prithvirajnaren
+  facebook_username: prithvirajnarendra
+  github_username:  EarthLord
+  linkedin_username:  prithvirajnarendra
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

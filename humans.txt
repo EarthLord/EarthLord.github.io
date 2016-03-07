@@ -1,0 +1,17 @@
+/* WEBSITE */
+Prithvi Raj Narendra
+
+/* DEVELOPER */
+Developer & Designer: Josh Gerdes
+Twitter: @joshgerdes
+Site: http://joshgerdes.com
+Location: Minneapolis, MN, USA
+						
+/* THANKS */
+Name: Dale Anthony, Josh Gerdes
+
+/* SITE */
+Last update: 2016/02/10
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Sublime Text, Photoshop
