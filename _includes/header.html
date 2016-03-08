@@ -31,7 +31,7 @@
 		  {% if site.author.cv %}
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
-                <li class="navigation__item"><a href="{{ site.author.cv }}" title="Link to {{ site.title }}'s CV" class="blog-button">CV</a></li>
+                <li class="navigation__item"><a href="{{ site.author.cv }}" title="Link to {{ site.title }}'s CV" class="cv-button">CV</a></li>
               </ul>
             </nav>
           {% endif %}  
@@ -90,7 +90,7 @@
             {% endif %}
 
             {% if site.blog%}
-            <!-- RSS -->
+            <!--	 RSS -->
 	            <li class="navigation__item">
 	              <a href="{{ "feed.xml" | prepend: site.baseurl }}" title="Subscribe" target="_blank">
 	                <i class="icon icon-rss"></i>
@@ -98,7 +98,7 @@
 	              </a>
 	            </li>
           	{% endif %}
-          	
+
             </ul>
           </nav>
 
