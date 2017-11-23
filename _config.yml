@@ -1,6 +1,6 @@
 # Site settings
 title: Prithvi Raj Narendra
-description: 'BLE Savvy; Open-Source Enthusiast; Embedded Engineer;'
+description: 'Co-founder of Appiko; Cares about the environment;<br>Open-Source Enthusiast; Embedded Engineer;'
 url: 'http://earthlord.io/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -9,11 +9,10 @@ baseurl: '/'
 author:
   name: 'Prithvi Raj Narendra'
   email: p@earthlord.io
-  twitter_username: prithvirajnaren
-  facebook_username: prithvirajnarendra
   github_username:  EarthLord
   linkedin_username:  prithvirajnarendra
   cv: https://github.com/EarthLord/CV/raw/master/Prithvi_CV.pdf
+  appiko: https://appiko.org
 
 defaults:
   -
