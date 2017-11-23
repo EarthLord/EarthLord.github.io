@@ -34,6 +34,14 @@
                 <li class="navigation__item"><a href="{{ site.author.cv }}" title="Link to {{ site.title }}'s CV" class="cv-button">CV</a></li>
               </ul>
             </nav>
+          {% endif %}
+		
+		{% if site.author.appiko %}
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="{{ site.author.appiko }}" title="Link to Appiko's site" class="cv-button">Appiko</a></li>
+              </ul>
+            </nav>
           {% endif %}  
 
           <nav class="cover-navigation navigation--social">
